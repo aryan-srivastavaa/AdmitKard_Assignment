@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your OTP</title>
+    <link rel="stylesheet" type="text/css" href="./public/otpstyle.css" />
+</head>
+<body>
+    <div >
+        <img class="loading-img" src="./verify.svg" alt="Loading Image"/>
+    </div>
+    <h2> Please Verify Mobile Number</h2>
+    <p> An OTP has been sent to </p>
+    <a href="/" class="change-link">Change Phone number</a>
+    
+    <form action="/match" method="post">
+        <input type="number" name="a" required/>
+        <input type="number" name="b" required/>
+        <input type="number" name="c" required/>
+        <input type="number" name="d" required/>
+        <h3> Didn't recieve the code <a href="/" class="change-link">Resend</a> </h3>
+        <button class="btn" type="submit">Verify</button>
+    </form>
+</body>
+</html>

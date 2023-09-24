@@ -1,0 +1,23 @@
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    text-align: center;
+}
+.success-img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.btn{
+    background: rgb(251, 177, 39);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+.btn:hover{
+    transition: 1s;
+    color: black;
+    background-color: orange;
+}

@@ -1,0 +1,79 @@
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.heading{
+    
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.contact   {
+    width: 30%;
+    height: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 5%;
+    border: 1px solid orange;
+    border-radius: 8px;
+    
+}
+.btn{
+    background: rgb(251, 177, 39);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-top: 4%;
+    transition: 1s;
+    color: white;
+}
+.btn:hover{
+    transition: 1s;
+    color: black;
+    background-color: orange;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
+
+
+.dropdown {
+    /* position: relative; */
+    /* display: inline-block; */
+    
+}
+
+/* Style for the select element */
+select {
+    
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    appearance: none; /* Remove default styles on some browsers */
+    cursor: pointer;
+}
+
+/* Style for the dropdown arrow */
+.dropdown::after {
+    
+    /* content: "\25BC"; Unicode down arrow character */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    /* pointer-events: none; Prevent the arrow from being interactive */
+}
+

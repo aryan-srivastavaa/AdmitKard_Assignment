@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./public/style.css" />
+    <title>Verify Your Mobile Number</title>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <img src = "./AdmitKard Logo.svg" alt="AdmitCard Logo"/>
+        </div>
+
+        <div>
+            <h2>Welcome Back</h2>
+            <h4>Please Sign into your account</h4>
+            
+        </div>
+        <form action="/otppage" method="post">
+            
+            <span class="dropdown">
+                
+                <select>
+                    <option value="option1">+91</option>
+                    <option value="option2">+1</option>
+                    <option value="option3">+55</option>
+                    <option value="option4">+22</option>
+                </select>
+            </span>
+            <input class="contact" type="number" name="mobile" placeholder="Enter Contact Number" required/>
+            <p>We will send you a one time SMS message. <br/>
+                Charges may apply.</p>
+                <button type="submit" class="btn">Sign in with OTP</button>
+                
+        </form>
+    </div>
+    
+</body>
+</html>

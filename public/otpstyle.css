@@ -1,0 +1,49 @@
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    text-align: center;
+}
+.loading-img{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.change-link{
+    text-decoration: none;
+    color: orange;
+    transition: 1s;
+    text-decoration: underline;
+}
+.change-link:hover{
+    color: red;
+    transition: 1s;
+}
+form{
+    margin-top: 50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input{
+    width: 30px;
+    height: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+.btn{
+    background: rgb(251, 177, 39);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+.btn:hover{
+    transition: 1s;
+    color: black;
+    background-color: orange;
+}
